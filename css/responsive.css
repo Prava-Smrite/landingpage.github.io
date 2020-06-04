@@ -1,0 +1,691 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 11%;
+    }
+
+    .navbar-nav {
+        background: #282828;
+    }
+
+    .navbar-toggler-icon {
+        background: #ffffff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scrolltotop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+
+    .banner-text {
+        padding-top: 110px;
+        padding-bottom: 150px;
+    }
+
+    .banner-text h2 {
+        font-size: 27px;
+    }
+
+    .banner-text p {
+        padding: 60px 80px;
+    }
+
+    #about-part {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .about-text h2 {
+        text-align: center;
+        margin-top: 25px;
+        color: #30235F;
+    }
+
+    .about-text a {
+        text-align: center;
+        width: 100%;
+    }
+
+    .about-text p {
+        text-align: justify;
+        padding: 0px 63px 20px 50px;
+    }
+
+    .video-i {
+        font-size: 13px;
+        width: 13%;
+        height: 13%;
+        padding: 18px;
+    }
+
+    #video-part {
+        padding: 95px 0px;
+    }
+
+    #service-part {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .service-text {
+        padding-top: 18px;
+    }
+
+    .service-text img {
+        padding-bottom: 18px;
+        padding-top: 20px;
+    }
+
+    .service-text h5 {
+        padding-bottom: 10px;
+    }
+
+    #team-part {
+        padding: 45px 0px;
+    }
+
+    .team-header p {
+        padding-bottom: 35px;
+    }
+
+    .team-bottom {
+        padding-top: 30px;
+    }
+
+    #project h3 {
+        text-align: center;
+        color: #30235F;
+    }
+
+    #project p {
+        text-align: center;
+        transform: translateX(12px);
+    }
+
+    .project-all-img {
+        text-align: center;
+    }
+
+    .project-img {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #project {
+        padding: 35px 0px;
+    }
+
+    .project-bottom {
+        padding-top: 45px;
+    }
+
+    .project-top-left {
+        padding-bottom: 5px;
+    }
+
+    .slick-center > .team-slider-img img {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .team-slider-img img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .slide-img {
+        transform: translate(-4%, -26%);
+    }
+
+    #team-two {
+        padding: 5px 0px;
+    }
+
+    .team-arrow-left {
+        left: 30%;
+        top: 86%;
+    }
+
+    .team-arrow-right {
+        left: 68%;
+        top: 86%;
+    }
+
+    .contact-left h3,
+    .contact-right h3 {
+        padding-bottom: 20px;
+        text-align: center;
+        color: #30235F;
+    }
+
+    .contact-btn {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 13px;
+    }
+
+    #contact {
+        padding: 45px 0px;
+    }
+
+    .center-contact-img {
+        text-align: center;
+    }
+
+    .footer-top-wrapper {
+        text-align: center;
+    }
+
+    .form-inline {
+        display: inline-block;
+    }
+
+    .footer-top-right .footer-form {
+        background: transparent;
+        border-radius: 0px;
+        padding: 22px 28px;
+        color: #ffffff;
+        /* padding-left: 0px; */
+    }
+
+    .footer-button {
+        padding: 9px 35px;
+    }
+
+    .footer-bottom-left ul li {
+        font-size: 13px;
+    }
+
+    .footer-bootom-wrapper {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+    .footer-top-left p {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #footer-part {
+        padding: 40px 0px;
+    }
+
+    .footer-top-middle h4,
+    .footer-top-right h4 {
+        padding-bottom: 18px;
+        padding-top: 5px;
+    }
+
+    .footer-bottom-left {
+        text-align: center;
+    }
+
+    .footer-bottom-right p {
+        text-align: center;
+    }
+
+    .scroll-img {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 11%;
+    }
+
+    .navbar-nav {
+        background: #282828;
+    }
+
+    .navbar-toggler-icon {
+        background: #ffffff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scrolltotop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+
+    .banner-text {
+        padding-top: 110px;
+        padding-bottom: 150px;
+    }
+
+    .banner-text h2 {
+        font-size: 29px;
+    }
+
+    .banner-text p {
+        padding: 80px 100px 68px 100px;
+    }
+
+    .about-text h2 {
+        text-align: center;
+        margin-top: 25px;
+        color: #30235F;
+    }
+
+    .about-text a {
+        text-align: center;
+        width: 100%;
+    }
+
+    .about-text p {
+        text-align: justify;
+        padding: 0px 63px 20px 50px;
+    }
+
+    #about-part {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .video-i {
+        font-size: 15px;
+        width: 12%;
+        height: 12%;
+        padding: 19px;
+    }
+
+    #video-part {
+        padding: 95px 0px;
+    }
+
+    #service-part {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .service-text {
+        padding-top: 18px;
+    }
+
+    .service-text p {
+        padding: 0px 46px 0px 46px;
+    }
+
+    .service-text img {
+        padding-bottom: 18px;
+    }
+
+    .service-text h5 {
+        padding-bottom: 10px;
+    }
+
+    #team-part {
+        padding: 45px 0px;
+    }
+
+    .team-header p {
+        padding-bottom: 35px;
+    }
+
+    .team-bottom {
+        padding-top: 30px;
+    }
+
+    .project-img {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #project {
+        padding: 35px 0px;
+    }
+
+    .project-bottom {
+        padding-top: 45px;
+    }
+
+    #team-two {
+        padding: 35px 0px;
+    }
+
+    .project-top-left {
+        padding-bottom: 18px;
+    }
+
+    .team-arrow-left {
+        left: 12%;
+        top: 86%;
+    }
+
+    .team-arrow-right {
+        left: 83%;
+        top: 86%;
+    }
+
+    .slide-img {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0px 48px 0px 48px;
+    }
+
+    .team-slider-img img {
+        width: 91px;
+        height: 91px;
+        border-radius: 50%;
+    }
+
+    .contact-left h3,
+    .contact-right h3 {
+        padding-bottom: 20px;
+        text-align: center;
+        color: #30235F;
+    }
+
+    .contact-btn {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 13px;
+    }
+
+    #contact {
+        padding: 45px 0px;
+    }
+
+    .center-contact-img {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .footer-top-wrapper {
+        text-align: center;
+    }
+
+    .form-inline {
+        display: inline-block;
+    }
+
+    .footer-top-right .footer-form {
+        background: transparent;
+        border-radius: 0px;
+        padding: 22px 28px;
+        color: #ffffff;
+        /* padding-left: 0px; */
+    }
+
+    .footer-button {
+        padding: 9px 35px;
+    }
+
+    .footer-bottom-left ul li {
+        font-size: 13px;
+    }
+
+    .footer-bootom-wrapper {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+    .footer-top-left p {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #footer-part {
+        padding: 40px 0px;
+    }
+
+    .footer-top-middle h4,
+    .footer-top-right h4 {
+        padding-bottom: 18px;
+        padding-top: 5px;
+    }
+
+    .footer-bottom-left {
+        text-align: center;
+    }
+
+    .footer-bottom-right p {
+        text-align: center;
+    }
+
+    .scroll-img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 11%;
+    }
+
+    .navbar-nav {
+        background: #282828;
+    }
+
+    .navbar-toggler-icon {
+        background: #ffffff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scrolltotop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+
+    .banner-text {
+        padding-top: 110px;
+        padding-bottom: 150px;
+    }
+
+    .banner-text p {
+        padding: 80px 100px 68px 100px;
+    }
+
+    .about-text h2 {
+        text-align: center;
+        margin-top: 25px;
+        color: #30235F;
+    }
+
+    .about-text a {
+        text-align: center;
+        width: 100%;
+    }
+
+    #about-part {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .video-i {
+        font-size: 16px;
+        width: 9%;
+        height: 9%;
+        padding: 20px;
+    }
+
+    #video-part {
+        padding: 110px 0px;
+    }
+
+    #service-part {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .service-text {
+        padding-top: 18px;
+    }
+
+    .service-text img {
+        padding-bottom: 18px;
+    }
+
+    .service-text h5 {
+        padding-bottom: 10px;
+    }
+
+    .service-text p {
+        padding: 0px 46px 0px 46px;
+    }
+
+    .project-bottom a {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #project {
+        padding: 54px 0px;
+    }
+
+    .project-top-left {
+        padding-bottom: 25px;
+    }
+
+    .project-bottom {
+        padding-top: 55px;
+    }
+
+    .scroll-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .team-header p {
+        padding-bottom: 40px;
+    }
+
+    .team-bottom {
+        padding-top: 30px;
+    }
+
+    #team-part {
+        padding: 45px 0px;
+    }
+
+    .team-arrow-left {
+        left: 16%;
+        top: 82%;
+    }
+
+    .team-arrow-right {
+        left: 84%;
+        top: 82%;
+    }
+
+    .contact-left h3,
+    .contact-right h3 {
+        padding-bottom: 20px;
+        text-align: center;
+        color: #30235F;
+    }
+
+    .contact-btn {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 13px;
+    }
+
+    #contact {
+        padding: 45px 0px;
+    }
+
+    .footer-top-wrapper {
+        text-align: center;
+    }
+
+    .form-inline {
+        display: inline-block;
+    }
+
+    .footer-top-right .footer-form {
+        background: transparent;
+        border-radius: 0px;
+        padding: 22px 28px;
+        color: #ffffff;
+        /* padding-left: 0px; */
+    }
+
+    .footer-button {
+        padding: 9px 35px;
+    }
+
+    .footer-bottom-left ul li {
+        font-size: 13px;
+    }
+
+    .footer-bootom-wrapper {
+        padding-top: 35px;
+        font-size: 14px;
+    }
+
+    #footer-part {
+        padding: 40px 0px;
+    }
+
+    .footer-top-middle h4,
+    .footer-top-right h4 {
+        padding-bottom: 18px;
+        padding-top: 5px;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .team-arrow-left {
+        left: 23%;
+        top: 80%;
+    }
+
+    .team-arrow-right {
+        left: 76%;
+        top: 80%;
+    }
+
+    .footer-top-right .footer-form {
+        background: transparent;
+        border-radius: 0px;
+        padding: 22px 8px;
+        color: #ffffff;
+        padding-left: 0px;
+    }
+
+    .footer-button {
+        padding: 9px 17px;
+    }
+
+    .footer-top-right ul li {
+        margin-right: 8px;
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+    }
+
+    .footer-bootom-wrapper {
+        font-size: 14px;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
